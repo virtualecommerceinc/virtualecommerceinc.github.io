@@ -374,10 +374,10 @@
                         </a>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm">
+                <form class="contact-form" action="https://formspree.io/f/mwpqebjp" method="POST">
                     <div class="form-group">
                         <label for="inquiryType">Inquiry Type</label>
-                        <select id="inquiryType" name="inquiryType" required>
+                        <select id="inquiryType" name="inquiry_type" required>
                             <option value="">Select inquiry type</option>
                             <option value="partnership">Partnership Opportunity</option>
                             <option value="affiliate">Affiliate Application</option>
@@ -401,6 +401,8 @@
                         <label for="message">Message</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
+                    <input type="hidden" name="_next" value="https://virtualecommerceinc.github.io/?success=true">
+                    <input type="hidden" name="_subject" value="New Contact Form Submission - VirtualEcommerce Inc.">
                     <button type="submit" class="submit-button">Send Message</button>
                     <div class="trust-badge">
                         ✓ Response within 24 hours • Professional consultation available
