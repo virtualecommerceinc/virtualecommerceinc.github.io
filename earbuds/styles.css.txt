@@ -1,0 +1,23 @@
+/* styles.css */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+.container { width: 90%; max-width: 1000px; margin: auto; }
+header { background: #004080; color: #fff; padding: 1em 0; }
+header h1 { margin-bottom: 0.5em; }
+nav a { color: #fff; margin-right: 1em; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+
+.intro { margin: 2em 0; }
+.comparison-table table { width: 100%; border-collapse: collapse; }
+.comparison-table th, .comparison-table td { border: 1px solid #ddd; padding: 0.75em; text-align: left; }
+.comparison-table th { background: #f4f4f4; }
+.comparison-table img { max-width: 100px; display: block; margin-top: 0.5em; }
+.btn { background: #ff6600; color: #fff; padding: 0.5em 1em; text-decoration: none; border-radius: 4px; }
+.btn:hover { background: #e65c00; }
+
+.newsletter { background: #f9f9f9; padding: 2em; margin: 2em 0; text-align: center; }
+.newsletter input[type="email"] { padding: 0.5em; width: 60%; max-width: 300px; margin-right: 0.5em; }
+.newsletter button { padding: 0.5em 1em; }
+.message { margin-top: 1em; font-weight: bold; }
+
+footer { background: #222; color: #ccc; text-align: center; padding: 1em 0; margin-top: 2em; font-size: 0.9em; }
