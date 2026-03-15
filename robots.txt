@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://virtualecommerceinc.com/spin-wheel-deals/sitemap.xml
+
+Sitemap: https://virtualecommerceinc.com/home-organization-deals.github.io/sitemap.xml
