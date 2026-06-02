@@ -119,6 +119,21 @@ This replaces the current affiliate/eCommerce homepage that lives in this repo.
   collisions with existing files like `partners.html`.
 - Update `sitemap.xml` and `robots.txt` to reflect the new pages before final deploy.
 
+## Asset map (2026-06-01) — what's new vs legacy
+
+NEW-SITE assets (reference these in the new build):
+- `assets/videos/hero.mp4` + `hero-poster.png` — Home hero "into the AI age" transformation
+- `assets/videos/keys.mp4` + `keys-poster.png` — AI Advantage "hand you the keys"
+- `assets/videos/safety-net.mp4` + `safety-net-poster.png` — AI Advantage "safety net"
+- `assets/og-image.png` — social share image (new VEI brand)
+- `assets/favicon.png` — new key-icon favicon (NOTE: ~1MB — recompress to a small 32–180px icon during polish)
+- `assets/dan-headshot.png` — Dan's photo, for the About page
+- `assets/a4l-flagship.png` — STILL NEEDED: real screenshot of https://virtualecommerceinc.com/Appliances4Less
+
+LEGACY assets (old affiliate site + preserved pages — do NOT reference in the new build, do NOT delete; `partners.html`/`blog/`/`earbuds/` still use some): the `*-placeholder.png` logos/icons, `logo-enhanced.png`, `logo-placeholder.png`, `og-image.jpg`.
+
+Note: when the new build lands, it overwrites `index.html`, `styles.css`, and `script.js` (expected). `partners.html`, `blog/`, and `earbuds/` are preserved.
+
 ## Safety rules (NEVER weaken)
 
 - One repo = its own folder pointed at its own remote. Cross-repo accidents come from a
